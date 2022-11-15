@@ -32,3 +32,9 @@ function draw() {
 
   r += 1;
 }
+
+function draw() {
+  background(132, 199, 155);
+  background(2, 112, 112)
+  
+}
