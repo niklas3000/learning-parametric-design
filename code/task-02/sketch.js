@@ -12,6 +12,8 @@ function setup () {
 }
 
 function draw () {
+
+  background('blue')
   strokeWeight(0)
   stroke(0)
   fill('red')
@@ -22,22 +24,22 @@ function draw () {
   }
 
   stroke(255)
-  fill('white')
+  fill('blue')
   rect(300, 0, 100, 400)
 
     stroke(254, 219, 32)
     strokeWeight(5)
-    fill(255)
+    fill(0)
     circle(340, 340, 80)
 
     stroke(255, 84, 0)
     strokeWeight(5)
-    fill(255)
+    fill(0)
     circle(340, 220, 80)
 
     stroke(239, 165, 194)
     strokeWeight(5)
-    fill(255)
+    fill(0)
     circle(340, 220, 40)
 
 
