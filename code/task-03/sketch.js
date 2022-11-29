@@ -48,7 +48,7 @@ function draw() {
   fill('purple')
   strokeWeight(0)
   beginShape();
-  for(let angle = 0; angle < 360; angle += 0.2) {
+  for(let angle = 0; angle < 360; angle += 0.5) {
     const radius = random(1, 130);
     const x = radius * cos(Math.PI / 180 * angle);
     const y = radius * sin(Math.PI / 180 * angle);

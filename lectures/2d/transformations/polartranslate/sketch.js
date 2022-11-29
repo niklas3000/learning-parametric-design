@@ -9,13 +9,13 @@ function draw() {
   // initial translate
   translate(200, 200);
 
-  for (let angle = 0; angle < 360; angle += 15) {
+  for (let angle = 0; angle < 360; angle += 45) {
     push();
     const x = radius * cos(Math.PI / 180 * angle);
     const y = radius * sin(Math.PI / 180 * angle);
     
     translate(x, y);
-    circle(0, 0, 10);
+    circle(0, 0, 40);
 
     // returning to the initial translate
     pop();
