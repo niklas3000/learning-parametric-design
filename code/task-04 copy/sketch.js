@@ -17,9 +17,8 @@ function draw() {
 
   translate(200, 200);
   rotate(Math.PI / 180 * angle)
+  push()
   for (let angle = 0; angle < 360; angle += 45) {
-   
-      push();
   const x = radius * cos(Math.PI / 180 * angle);
   const y = radius * sin(Math.PI / 180 * angle);
     translate(50, 50)
