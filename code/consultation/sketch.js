@@ -27,7 +27,7 @@ let zoff = 0;
 let resoff = 0;
 
 function setup() {
-	createCanvas(400, 400); // get slow: , SVG	
+	createCanvas(3000, 6000); // get slow: , SVG	
 
   cols = width / resolution;
 	rows = height / resolution;

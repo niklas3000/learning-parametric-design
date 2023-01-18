@@ -1,18 +1,12 @@
 function setup() {
-  createCanvas(800, 600);
-  t = rez = c = n = 0.01;
+  createCanvas(2000, 1000);
+  t = rez = c = n = 0.03;
   strokeWeight(3);
   cols = [
-    "#f94144",
-    "#f3722c",
-    "#f8961e",
-    "#f9844a",
-    "#f9c74f",
-    "#90be6d",
-    "#43aa8b",
-    "#4d908e",
-    "#577590",
-    "#277da1",
+    "#A4D4B4",
+    "#CA054D",
+    "#FFCF9C",
+
   ];
 }
 function draw() {
@@ -20,18 +14,8 @@ function draw() {
   noStroke();
   for (i = 0; i < width; i += 3) {
     for (j = 0; j < height; j += 3) {
-      n = noise(i * rez, j * rez + t) * 10;
-      n > 9
-        ? (c = 9)
-        : n > 8
-        ? (c = 8)
-        : n > 7
-        ? (c = 7)
-        : n > 6
-        ? (c = 6)
-        : n > 5
-        ? (c = 5)
-        : n > 4
+      n = noise(i * rez, j * rez + t) * 3;
+      n > 3
         ? (c = 4)
         : n > 3
         ? (c = 3)
@@ -44,6 +28,6 @@ function draw() {
       rect(i, j, 3);
     }
   }
-  t += 0.01;
+  t += 9.1;
 noLoop()
 }
