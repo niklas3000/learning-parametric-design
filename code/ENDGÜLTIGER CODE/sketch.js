@@ -1,4 +1,4 @@
-let yoff = 10; // 2nd dimension of perlin noise
+let yoff = 10; 
 fr = 2
 let counter = 1
 
